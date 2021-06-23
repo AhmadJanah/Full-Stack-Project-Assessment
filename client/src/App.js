@@ -3,6 +3,7 @@ import "./App.css";
 import React from 'react';
 import AllVideoData from "./AllVedioData"
 import videosData from './exampleresponse.json';
+let myVideos = [...videosData];
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       </header>
       <main>
         <div className="container">
-          <AllVideoData videoData = {videosData}/>
+          <AllVideoData videoData={myVideos}/>
         </div>
       </main>
     </div>

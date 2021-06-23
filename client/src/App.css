@@ -3,14 +3,28 @@
 }
 
 header {
-  background-color: #005f73;
+  background-color: #e29578;
   height: 8rem;
-  color: #e9d8a6;
+  color: #006d77;
 }
+
+main {
+  background-color: #edf6f9;
+}
+
+.container{
+  background-color: #83c5be;
+  color: #073b4c;
+}
+
 
  .fa-custom{
   font-size: 32px;
  color: red;
+ }
+
+ .fa-custom:focus{
+    color: #ffd166;
  }
 
 
@@ -18,4 +32,8 @@ header {
   padding-top: 2rem;
   font-size: 2rem;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.custom-height{
+  min-height: 80px;
 }
